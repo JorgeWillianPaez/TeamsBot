@@ -2,11 +2,14 @@
 const express = require("express");
 const { commandApp } = require("./internal/initialize");
 const { TeamsBot } = require("./teamsBot");
+const dotenv = require("dotenv");
 
 // This template uses `express` to serve HTTP responses.
 // Create express application.
 const expressApp = express();
 expressApp.use(express.json());
+
+dotenv.config();
 
 const server = expressApp.listen(process.env.port || process.env.PORT || 3978, () => {
   console.log(`\nBot Started, ${expressApp.name} listening to`, server.address());

@@ -12,7 +12,7 @@ class TeamsBot extends TeamsActivityHandler {
       for (let cnt = 0; cnt < membersAdded.length; cnt++) {
         if (membersAdded[cnt].id) {
           await context.sendActivity(
-            'Welcome to the Command Bot! I can help you with a few simple commands. Type "helloworld" or "help" to get started.'
+            'Bem-vindo(a) ao Bot que te auxiliará com dúvidas sobre RH. Comece digitando sua pergunta.'
           );
           break;
         }
