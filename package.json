@@ -25,6 +25,8 @@
         "@microsoft/teamsfx": "^3.0.0",
         "adaptive-expressions": "^4.23.1",
         "adaptivecards-templating": "^2.3.1",
+        "axios": "^1.9.0",
+        "body-parser": "^2.2.0",
         "botbuilder": "^4.23.1",
         "dotenv": "^16.4.7",
         "express": "^5.0.1",

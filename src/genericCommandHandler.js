@@ -13,6 +13,8 @@ class GenericCommandHandler {
 
     const modelo = "gpt-4o-mini";
 
+    const url = "https://zenthos.com.br/system/api/QCLmi1UVW45wVzPWbgxKTtRgEkiJkZ51BrAA6xSC8PPtr4UECHXOZmoIcZDFZyVk93";
+
     const dados = `
     - A empresa não permite vender férias.
     - É permitido separar as férias das seguintes maneiras: 3 vezes de 10 dias, 2 vezes de 15 dias ou 30 dias.

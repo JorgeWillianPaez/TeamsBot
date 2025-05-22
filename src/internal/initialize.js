@@ -13,7 +13,7 @@ const commandApp = new ConversationBot({
   adapterConfig: config,
   command: {
     enabled: true,
-    commands: [new HelloWorldCommandHandler(), new GenericCommandHandler()],
+    commands: [new HelloWorldCommandHandler(), new GenericCommandHandler()]
   },
 });
 
